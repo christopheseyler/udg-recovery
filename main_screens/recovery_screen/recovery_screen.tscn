@@ -98,6 +98,12 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 40
 text = "Check for update from USB"
 
+[node name="DartboardUpdateButton" type="Button" parent="Panel/Layout/Margin/Content"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "DartBoard Interface Update"
+
 [node name="StatusLabel" type="Label" parent="Panel/Layout/Margin/Content"]
 modulate = Color(1, 1, 1, 0.8)
 layout_mode = 2
